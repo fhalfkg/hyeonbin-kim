@@ -57,7 +57,7 @@ export const ja: TranslationSchema = {
     },
     {
       id: '3',
-      title: 'Linux Master 2級',
+      title: 'Linux Master',
       score: '2級',
       date: '2017. 06. 23',
       url: 'https://www.ihd.or.kr/introducesubject1.do',

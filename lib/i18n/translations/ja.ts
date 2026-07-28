@@ -1,7 +1,7 @@
 import { TranslationSchema } from '../types';
 
 export const ja: TranslationSchema = {
-  headline: '学んだことはいつか役に立つと信じて生きています。',
+  headline: '学んだことはいつか必ず役に立つと信じて生きています。\n常に知への渇きを感じており、無数の井戸を掘り続けています。',
   careerTitle: '職歴',
   educationTitle: '学歴',
   certificationsTitle: '資格',

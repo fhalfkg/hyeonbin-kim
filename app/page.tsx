@@ -70,7 +70,7 @@ export default async function Home() {
         {/* 메인 이력 카드 */}
         <ScrollReveal delay={300} className="w-full">
           <Card className="w-full p-8">
-            <h1 className="text-2xl font-bold">{t.headline}</h1>
+            <h1 className="text-2xl font-bold whitespace-pre-line leading-relaxed">{t.headline}</h1>
             <h2 className="text-xl font-bold mt-10 mb-6">{t.careerTitle}</h2>
             <Timeline items={t.career} />
             <h2 className="text-xl font-bold mt-10 mb-6">{t.educationTitle}</h2>

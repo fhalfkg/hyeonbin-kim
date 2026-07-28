@@ -1,7 +1,7 @@
 import { TranslationSchema } from '../types';
 
 export const en: TranslationSchema = {
-  headline: 'Living with the belief that everything learned will be useful someday.',
+  headline: 'I live by the belief that no learning goes to waste.\nDriven by an insatiable thirst for knowledge, I never stop digging new wells.',
   careerTitle: 'Career',
   educationTitle: 'Education',
   certificationsTitle: 'Certifications',

@@ -1,7 +1,7 @@
 import { TranslationSchema } from '../types';
 
 export const ko: TranslationSchema = {
-  headline: '배워놓으면 언젠가는 쓸모가 있다는 생각으로 살아갑니다.',
+  headline: '배워놓으면 언젠가는 쓸모가 있다는 생각으로 살아갑니다.\n항상 목이 마르기에, 수도 없이 우물을 팝니다.',
   careerTitle: '경력',
   educationTitle: '학력',
   certificationsTitle: '자격',

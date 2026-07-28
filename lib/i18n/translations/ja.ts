@@ -19,7 +19,7 @@ export const ja: TranslationSchema = {
     {
       id: '2',
       period: '2020.03 ~ 2024.07',
-      role: '韓国 有限責任会社コジー - SW開発チーム バックエンド開発者',
+      role: '韓国 有限責任会社COZY - SW開発チーム バックエンド開発者',
       description: '学校協同組合の売店商品券販売・交換システムサーバー開発',
       isCurrent: false,
     },
@@ -81,7 +81,7 @@ export const ja: TranslationSchema = {
     {
       id: '2',
       title: 'H4Pay-Backend',
-      subtitle: '合同会社COZYプロジェクト',
+      subtitle: '韓国 有限責任会社COZYプロジェクト',
       description: '学校協同組合売店商品券販売・交換システムバックエンドサーバー',
       tags: ['Kotlin', 'Spring Boot'],
       githubUrl: 'https://github.com/COZYLLC/h4pay-backend',

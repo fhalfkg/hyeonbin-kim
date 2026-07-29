@@ -10,7 +10,7 @@ import ScrollReveal from '@/components/ScrollReveal';
 import HeaderControls from '@/components/HeaderControls';
 import NameHeader from '@/components/NameHeader';
 import { getTranslation, Language } from '@/lib/i18n';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/next';
 
 export default async function Home() {
   // Next.js 15+ 에서는 cookies()가 Promise를 반환할 수 있으므로 await 처리

@@ -10,12 +10,13 @@ import ScrollReveal from '@/components/ScrollReveal';
 import HeaderControls from '@/components/HeaderControls';
 import NameHeader from '@/components/NameHeader';
 import { getTranslation, Language } from '@/lib/i18n';
+import { Analytics } from "@vercel/analytics/next"
 
 export default async function Home() {
   // Next.js 15+ 에서는 cookies()가 Promise를 반환할 수 있으므로 await 처리
   const cookieStore = await cookies();
   const savedLang = cookieStore.get('NEXT_LOCALE')?.value as Language | undefined;
-  
+
   // 쿠키에 유효한 값이 없으면 기본값 'ko' 사용
   const lang: Language = (savedLang && ['ko', 'en', 'ja'].includes(savedLang)) ? savedLang : 'ko';
   const t = getTranslation(lang);
@@ -38,7 +39,7 @@ export default async function Home() {
         {/* 상단 프로필 헤더 */}
         <ScrollReveal delay={100} className="w-full">
           <div className="flex w-full flex-col items-start justify-start gap-4">
-            
+
             {/* 인터랙티브 텍스트 애니메이션은 별도 클라이언트 컴포넌트로 분리 */}
             <NameHeader initialLang={lang} />
 
@@ -92,6 +93,7 @@ export default async function Home() {
           </div>
         </ScrollReveal>
       </main>
+      <Analytics />
     </div>
   );
 }

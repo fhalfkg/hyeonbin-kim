@@ -55,14 +55,14 @@ export default async function Home() {
                 <span className="font-semibold text-lg tracking-tight">bin3635@gmail.com</span>
               </a>
               <a
-                href="https://github.com/fhalfkg"
+                href="https://github.com/bin3635"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="GitHub 프로필 방문 (github.com/fhalfkg)"
+                title="GitHub 프로필 방문 (github.com/bin3635)"
                 className="flex items-center gap-2 text-gray-600 hover:text-indigo-500 dark:text-gray-300 dark:hover:text-indigo-400 transition-colors"
               >
                 <GithubIcon className="w-8 h-8 sm:w-9 sm:h-9" />
-                <span className="font-semibold text-lg tracking-tight">@fhalfkg</span>
+                <span className="font-semibold text-lg tracking-tight">@bin3635</span>
               </a>
             </div>
           </div>
